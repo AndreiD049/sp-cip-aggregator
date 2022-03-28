@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cip-aggregator-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cipAggregator/CipAggregatorWebPart.js",
+          "manifest": "./src/webparts/cipAggregator/CipAggregatorWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "sp-react-notifications": {
+      "path": "https://cdn.jsdelivr.net/npm/sp-react-notifications@1.0.20/dist/index.amd.js",
+      "globalName": "spReactNotifications"
+    }
+  },
+  "localizedResources": {
+    "CipAggregatorWebPartStrings": "lib/webparts/cipAggregator/loc/{locale}.js"
+  }
+}

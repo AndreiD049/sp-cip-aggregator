@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "cip-aggregator",
+    "libraryId": "8936d074-8647-4bb0-b5d4-f2632b901ac1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cip-aggregator",
+    "solutionShortDescription": "cip-aggregator description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "cip-aggregator",
+  "version": "0.0.1",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle --ship && gulp package-solution --ship",
+    "clean": "gulp clean",
+    "test": "jest",
+    "serve": "gulp bundle --custom-serve --max_old_space_size=4096 && fast-serve"
+  },
+  "dependencies": {
+    "@microsoft/rush-stack-compiler-4.2": "^0.1.2",
+    "@microsoft/sp-core-library": "1.14.0",
+    "@microsoft/sp-lodash-subset": "1.14.0",
+    "@microsoft/sp-office-ui-fabric-core": "1.14.0",
+    "@microsoft/sp-property-pane": "1.14.0",
+    "@microsoft/sp-webpart-base": "1.14.0",
+    "@pnp/core": "^3.1.0",
+    "@pnp/queryable": "^3.1.0",
+    "@pnp/sp": "^3.1.0",
+    "office-ui-fabric-react": "7.174.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sp-preset": "^1.0.10"
+  },
+  "devDependencies": {
+    "@microsoft/sp-build-web": "1.14.0",
+    "@microsoft/sp-module-interfaces": "1.14.0",
+    "@microsoft/sp-tslint-rules": "1.14.0",
+    "@types/enzyme": "^3.10.11",
+    "@types/jest": "^27.4.1",
+    "@types/jsdom": "^16.2.14",
+    "@types/react": "16.9.51",
+    "@types/react-dom": "16.9.8",
+    "@types/webpack-env": "1.13.1",
+    "ajv": "~5.2.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "gulp": "~4.0.2",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^27.5.1",
+    "sp-react-notifications": "^1.0.20",
+    "spfx-fast-serve-helpers": "~1.14.0",
+    "ts-jest": "^27.1.4",
+    "typescript": "^3.9.10"
+  }
+}

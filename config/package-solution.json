@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cip-aggregator-client-side-solution",
+    "id": "8936d074-8647-4bb0-b5d4-f2632b901ac1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cip-aggregator description"
+      },
+      "longDescription": {
+        "default": "cip-aggregator description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cip-aggregator Feature",
+        "description": "The feature that activates elements of the cip-aggregator solution.",
+        "id": "8a4b7041-2717-419e-bd7e-1997510e7ce5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cip-aggregator.sppkg"
+  }
+}
